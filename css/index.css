@@ -220,9 +220,8 @@ a:hover{
 	margin-right: 4%;
 	margin-bottom: 2%;
 }
-.servicetxtsection{
+.services-box-wrapper{
 	display: flex;
-	justify-content: space-between;
 	margin-left: 2%;
 	margin-right: 2%;
 }
@@ -352,10 +351,19 @@ a:hover{
 	height: 30%;
 	border-radius: 10px;
 }
+.services-title .services-text{
+	display: block;
+}
+.services-text-section{
+	display:block;
+}
+
 @media (max-width: 800px){
     nav{
         background: none;
-        margin-top: 20%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		position: static;
     }
     .navitem .logo{
         display: none;
@@ -375,7 +383,32 @@ a:hover{
         justify-content: center;
         margin-bottom: 10%;
         margin-top: 25%;
-    }
+	}
+
+
+	.services-header-img{
+		display:none;
+	}
+	.services-title .services-text{
+		display: block;
+	}
+	.services-text-section{
+		display:block;
+	}
+	.services-text-section .service-box{
+		display: block;
+	}
+	.services-box-wrapper{
+		display: block;
+	}
+	.learnmorebox{
+		font-size: 14px;
+		padding: 0%;
+	}
+	.services-info-img{
+		width: 40%;
+		height: 40%;
+	}
 }
 @media (max-width: 500px){
     nav{
@@ -443,5 +476,29 @@ a:hover{
     .textblock .description2{
         width: auto;
         margin-bottom: 6%;
-    }
+	}
+
+
+	.services-header-img{
+		display:none;
+	}
+	.services-title .services-text{
+		display: block;
+	}
+	.services-text-section{
+		display:block;
+	}
+	.services-text-section .service-box{
+		display: block;
+	}
+	.services-box-wrapper{
+		display: block;
+	}
+	.learnmorebox{
+		font-size: 14px;
+		padding: 0%;
+	}
+	.services-info-img{
+		display: none;
+	}
 }
